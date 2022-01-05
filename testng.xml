@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Regresstion Test" preserve-order="true">
+
+        <classes>
+            <class name="PetTests.User_Post"/>
+            <class name="PetTests.User_Get"/>
+            <class name="PetTests.User_Put"/>
+            <class name="PetTests.User_Get"/>
+            <class name="PetTests.User_Delete"/>
+            <class name="PetTests.User_Get"/>
+
+        </classes>
+    </test>
+</suite>
