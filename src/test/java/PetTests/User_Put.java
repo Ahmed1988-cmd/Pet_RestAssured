@@ -20,20 +20,20 @@ public class User_Put extends TestBase
 
         CreateUser create = new CreateUser();
 
-        create.setId("40404");
-        create.setUsername("water2");
-        create.setFirstName("testingmylive");
-        create.setLastName("alyyy");
-        create.setEmail("mesh@gmail.com.com");
-        create.setPassword("123456");
-        create.setPhone("9090");
+        create.setId("404040");
+        create.setUsername("username123");
+        create.setFirstName("last");
+        create.setLastName("last");
+        create.setEmail("last@gmail.com.com");
+        create.setPassword("5555");
+        create.setPhone("5555");
         create.setUserStatus("1");
 
         given()
                 .contentType(ContentType.JSON)
                 .when()
                 .body(create)
-                .put("/40404")
+                .put("/404040")
                 .then()
                 .statusCode(200);
 

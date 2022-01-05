@@ -18,13 +18,13 @@ public class User_Post extends TestBase
 
         CreateUser create = new CreateUser();
 
-        create.setId("40404");
-        create.setUsername("water2");
-        create.setFirstName("hello22");
+        create.setId("404040");
+        create.setUsername("username123");
+        create.setFirstName("username1234");
         create.setLastName("Test33");
-        create.setEmail("hee@gmail.com");
-        create.setPassword("12345");
-        create.setPhone("12345");
+        create.setEmail("try@gmail.com");
+        create.setPassword("444");
+        create.setPhone("444");
         create.setUserStatus("1");
 
         given()

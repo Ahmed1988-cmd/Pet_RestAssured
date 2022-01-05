@@ -12,7 +12,6 @@
             <class name="PetTests.User_Put"/>
             <class name="PetTests.User_Get"/>
             <class name="PetTests.User_Delete"/>
-            <class name="PetTests.User_Get"/>
 
         </classes>
     </test>

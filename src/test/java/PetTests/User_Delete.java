@@ -13,9 +13,9 @@ public class User_Delete extends TestBase
     {
         given()
                 .when()
-                .delete("/water2")
+                .delete("/username123")
                 .then()
-                .statusCode(200);
+                .statusCode(404);
 
     }
 }

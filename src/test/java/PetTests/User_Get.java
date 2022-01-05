@@ -15,13 +15,13 @@ public class User_Get extends TestBase
 
      Response response =  given()
                 .when()
-                .get("/water2");
+                .get("/username123");
 
      System.out.println(response.body().prettyPrint());
 
         given()
                 .when()
-                .get("/water2")
+                .get("/username123")
                 .then()
                 .statusCode(200);
 
